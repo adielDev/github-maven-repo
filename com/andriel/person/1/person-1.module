@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.andriel",
+    "module": "person",
+    "version": "1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "person-1.jar",
+          "url": "person-1.jar",
+          "size": 1327,
+          "sha512": "42824dd31411b7514524e13c0b01108cb95a71a0da6eaafa9227084929ea64c5f854415bd6044506b448244e7b04cea10d8fbe12fd95f438e15ca45b4284e2c6",
+          "sha256": "2bd40d37d999a9f37c6b867cdff7be22fe50a93147c28a5c43580077b7b9a5a9",
+          "sha1": "fa8afcf58e2e7cae19f9f8d6bd2c265ecd4ecab6",
+          "md5": "1387d678ca55882e4ecadbb367a750dd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "person-1.jar",
+          "url": "person-1.jar",
+          "size": 1327,
+          "sha512": "42824dd31411b7514524e13c0b01108cb95a71a0da6eaafa9227084929ea64c5f854415bd6044506b448244e7b04cea10d8fbe12fd95f438e15ca45b4284e2c6",
+          "sha256": "2bd40d37d999a9f37c6b867cdff7be22fe50a93147c28a5c43580077b7b9a5a9",
+          "sha1": "fa8afcf58e2e7cae19f9f8d6bd2c265ecd4ecab6",
+          "md5": "1387d678ca55882e4ecadbb367a750dd"
+        }
+      ]
+    }
+  ]
+}
